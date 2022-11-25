@@ -1,0 +1,203 @@
+.home-space {
+	margin-left: 68px;
+}
+.home-label {
+	width: 100%;
+	margin: 20px 0px !important;
+	border-radius: 4px;
+	padding-bottom: 15px;
+	box-shadow: 0px 0px 4px 1px #00000038;
+}
+.home-label-style {
+	width: 48% !important;
+}
+.imglivro {
+	height: 115px;
+	width: 85px;
+}
+.livro-info-box {
+	height: 65px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+}
+.livro-info-box p {
+	margin: 4px 0px 0px 0px;
+	padding: 0px 7px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 13px;
+}
+.livro-info-box button {
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	color: lightblue;
+	transition: all ease 0.2s;
+    text-transform: uppercase;
+	font-size: 11px;
+    font-weight: bolder;
+    font-family: system-ui;
+}
+.livro-info-box button:hover {
+	color: #005e7c;
+}
+.bg-half-gray {
+	background-color: #efefef85;
+}
+.home-label h3 {
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+.home-label .mural-avisos {
+	display: flex;
+	padding: 0px 30px;
+}
+.home-label .avisos {
+	width: 200px;
+	height: 180px;
+	margin: 0px 15px;
+	box-shadow: 0px 0px 4px 1px #00000038;
+	z-index: 100;
+	border-radius: 5px;
+}
+.home-label .disciplinas {
+	display: flex;
+	width: 48%;
+}
+.accordion-body {
+	padding: 5px !important;
+}
+.container-title {
+	display: flex;
+	margin-left: 16px;
+}
+.container-title h4 {
+	margin: 0px 0px 10px 15px;
+}
+.container-title i {
+	color: orange;
+	font-size: 28px;
+}
+.container-style {
+	width: calc(100% - 30px);
+	margin: 0px 15px;
+	box-shadow: 0px 0px 4px 1px #00000038;
+    padding: 17px;
+    min-height: 225px;
+}
+.container-style::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	transition: all ease 0.3s;
+	background-color: transparent;
+}
+.container-style::-webkit-scrollbar-thumb, .form-clientes::-webkit-scrollbar-thumb:horizontal {
+	background: linear-gradient(13deg, #d4fffe80 14%, #b5c1ff80 64%);
+	border-radius: 10px;
+	transition: all ease 0.3s;
+	background-color: transparent;
+}
+.container-style::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(13deg, #a9fcfb70 14%, #82a7ff70 64%);
+}
+.container-style::-webkit-scrollbar-track {
+	background: transparent;
+	border-radius: 10px;
+}
+.atividade, .livros {
+	min-width: 135px;
+	max-width: 135px;
+	margin-right: 15px;
+	box-shadow: 0px 0px 9px 1px #00000026;
+}
+.atv-curso, .box-imglivro {
+	height: 115px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-imglivro {
+	border-bottom: 1px solid #00000025
+}
+.atv-curso p {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+.atividade-nome {
+	font-size: 13px;
+	margin: 0px;
+	text-align: center;
+	border-bottom: 1px solid #00000042;
+}
+.info-encerramento {
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.info-encerramento .encerramento {
+	font-size: 11px;
+	margin: 0px 0px 0px 5px;
+}
+.info-encerramento i {
+	color: green;
+	font-size: 19px;
+	margin-right: 5px;
+}
+.accordion-body ul {
+	padding: 5px !important;
+	margin: 0px;
+}
+.accordion-body ul li{
+	width: 100% !important;
+	list-style: none;
+	margin-bottom: 5px;
+}
+.accordion-body ul li a{
+	text-decoration: none;
+	line-height: 14px;
+	font-size: 13px;
+	display: flex; 
+}
+.home-label .disciplina {
+	height: 40px;
+	width: 28%;
+	margin: 5px 0px;
+	box-shadow: 0px 0px 4px 1px #00000038;
+	z-index: 100;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.home-label #tabela-horarios table {
+	width: 100%;
+}
+.home-label #tabela-horarios table tr td{
+	text-align: center;
+	font-size: 12px;
+	padding: 5px 0px;
+}
+.home-label #tabela-horarios table tr td.header{
+	background-color: #bbdcff;
+	font-weight: bold;
+}
+.home-label #tabela-horarios table tr td.border-inactive{
+	border: none;
+}
+.home-label #tabela-horarios table tr td.border-active{
+	border: 1px solid #bdbdbd;
+}
+.slick-track {
+	padding: 10px 0px;
+}
+.disciplina-nome {
+	margin: 0px;
+	line-height: 15px;
+	font-size: 14px;
+}

@@ -6,3 +6,4 @@
 |    Commits    |   Descrição   |
 | ------------- |:-------------:|
 | #1            | FEAT - Criando estrutura do projeto MVC   |
+| #2            | FEAT - Desenvolvendo o login e a index do projeto   |

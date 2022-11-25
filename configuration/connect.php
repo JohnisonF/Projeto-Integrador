@@ -3,7 +3,7 @@
     define('HOST', 'localhost');
     define('DBNAME', 'projetointegrador');
     define('USER', 'root');
-    define('PASSWORD', 'root');
+    define('PASSWORD', '');
 
     class Db{
         protected $connection;

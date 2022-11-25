@@ -1,0 +1,42 @@
+#sidebar-buttons {
+	position: fixed;
+	height: 100%;
+	background-color: #F0F0F0;
+	box-shadow: 0 -1px 10px 0px #00000061;
+	width: 300px;
+	display: flex;
+	left: -232px;
+	transition: all ease 0.3s;
+	z-index: 999999;
+}
+#sidebar-buttons.active {
+	left: 0px;
+}
+#sidebar-buttons .menu {
+	width: calc(300px - 67px);
+	height: 100%;
+	border-right: 1px solid #00000017;
+}
+#sidebar-buttons .menu-buttons {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	justify-content: space-between;
+}
+#sidebar-buttons .menu-buttons li {
+	padding: 10px 15px;
+	border: 1px solid #38383800;
+	width: 46px;
+	border-radius: 4px;
+	transition: all ease 0.3s;
+}
+#sidebar-buttons .menu-buttons li:hover {
+	border: 1px solid gray;
+}
+#sidebar-buttons .menu-buttons li#user-settings {
+	border-radius: 100%;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+}
