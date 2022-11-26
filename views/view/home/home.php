@@ -13,6 +13,7 @@
 <section id="home-site">
 	<?php require_once './views/view/template/sidebar.php'; ?>
 	<div class="home-space">
+		<?php require_once './views/view/template/menu-top.php'; ?>
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
 				<div id="avisos" class="home-label bg-half-gray">

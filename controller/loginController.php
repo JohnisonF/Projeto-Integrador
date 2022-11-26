@@ -13,11 +13,11 @@
 		public function login() {
 			$retorno = $this->model->login($_POST);
 			if($retorno) {
-				echo 'EEEEE';
 				$_SESSION['nome'] = $retorno['firstname'];
 				$_SESSION['sobrenome'] = $retorno['lastname'];
 				$_SESSION['email'] = $retorno['email'];
 				$_SESSION['RA'] = $retorno['id'];
+				$_SESSION['tipo_user'] = $retorno['tipo_usuario'];
 
 				return true;
 			}
