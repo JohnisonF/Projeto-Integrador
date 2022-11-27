@@ -1,5 +1,5 @@
 <?php 
-	require_once('./configuration/connect.php');
+	require_once(__DIR__.'/../configuration/connect.php');
 
 	class loginModel extends Db {
 		

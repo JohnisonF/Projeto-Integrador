@@ -1,5 +1,5 @@
 <section>
-	<?php require_once './views/view/template/sidebar.php'; ?>
+	<?php require_once __DIR__.'/../views/view/template/sidebar.php'; ?>
 	<div class="home-space">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">

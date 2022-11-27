@@ -1,5 +1,5 @@
 <?php 
-	require_once('./model/indexModel.php');
+	require_once(__DIR__.'/../model/indexModel.php');
 
 	class indexController {
 

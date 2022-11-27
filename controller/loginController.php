@@ -1,5 +1,5 @@
 <?php 
-	require_once('./model/loginModel.php');
+	require_once __DIR__.'/../model/loginModel.php';
 
 	class loginController {
 

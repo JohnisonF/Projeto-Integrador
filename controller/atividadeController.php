@@ -1,5 +1,5 @@
 <?php 
-	require_once('./model/atividadeModel.php');
+	require_once(__DIR__.'/../model/atividadeModel.php');
 
 	class atividadeController {
 

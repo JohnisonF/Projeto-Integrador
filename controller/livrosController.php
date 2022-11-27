@@ -1,5 +1,5 @@
 <?php 
-	require_once('./model/livrosModel.php');
+	require_once(__DIR__.'/../model/livrosModel.php');
 
 	class livrosController {
 

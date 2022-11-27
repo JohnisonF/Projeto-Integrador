@@ -1,15 +1,6 @@
 <?php 
 	require_once './vars.php';
 ?>
- <!-- 
- <?php
- //foreach ($GLOBALS['disciplinas'] as $key => $value) {
-// 							echo '<div class="disciplina" style="background-color:#'. str_pad(dechex(mt_rand(0, 0xFFFFFF)), 6, '0', STR_PAD_LEFT).'">
-// 								<p class="disciplina-nome">'.$value['nome'].'</p>
-// 								</div>';
-//						} 
-?> 
-!-->
 <section id="home-site">
 	<?php require_once './views/view/template/sidebar.php'; ?>
 	<div class="home-space">

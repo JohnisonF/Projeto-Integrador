@@ -1,0 +1,52 @@
+#space-boletim {
+    box-shadow: 0px 0px 4px 1px #00000038;
+    background-color: #efefef85;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.table-boletim tr td {
+	padding: 5px 6px;
+	border-radius: 4px;
+	text-align: center;
+}
+.table-boletim tr td .notas {
+    width: 50px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px 1px #00000054;
+}
+.table-boletim tr td .materias {
+	width: 300px;
+	padding-left: 10px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #33aaf7;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px #33aaf733;
+}
+.table-boletim tr td .title-materia {
+	font-size: 20px;
+	font-family: 'Poppins';
+	color: blue;
+}
+.table-boletim tr td .title-nota {
+	font-size: 20px;
+	font-family: 'Poppins';
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-left {
+	text-align: left !important; 
+}
+.padding-nota {
+	padding: 8px 12px !important;
+}
