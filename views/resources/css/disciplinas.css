@@ -1,0 +1,35 @@
+.box-disciplina {
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px 1px #00000038;
+}
+.box-disciplina .content-box-disciplina {
+	min-height: 100px;
+    padding: 5px 13px;
+    border-radius: 5px 5px 0px 0px;
+}
+.box-disciplina .nome-disciplina {
+	font-size: 25px;
+	color: white;
+}
+.box-disciplina .professor-disciplina {
+    color: white;
+    min-height: 24px;
+}
+.box-disciplina .atividade-disciplina {
+    min-height: 70px;
+    margin: 0px 13px;
+    border-bottom: 1px solid #F0F0F0;
+}
+.box-disciplina .atividade-nome-disciplina {
+	font-size: 12px;
+	margin: 0px;
+}
+.box-disciplina .botoes-disciplina {
+    padding: 0px 13px;
+    display: flex;
+    justify-content: flex-end;
+}
+.box-disciplina .botoes-disciplina button{
+	border:none;
+	background-color: transparent;
+}

@@ -48,7 +48,8 @@
 			<li id="open-sidebar"><i class="fa-solid fa-bars"></i></li>
 			<li><i class="fa-regular fa-bell"></i></li>
 		</div>
-		<div>	
+		<div>
+			<li id="home-button"><a href="http://localhost/projetoIntegrador/index.php"><i class="fa-solid fa-house"></i></a></li>
 			<li id="user-settings"><?php echo strtoupper(substr($_SESSION['nome'], 0, 1));
 			echo strtoupper(substr($_SESSION['sobrenome'], 0, 1)); ?></li>
 		</div>

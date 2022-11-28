@@ -14,6 +14,9 @@
 			return $this->model->getAtividadeAluno($idUser);
 		}
 
+		public function getAtividadesDisciplina($idDisciplina) {
+			return $this->model->getAtividadesDisciplina($idDisciplina);
+		}
 	}
 
 ?>

@@ -40,3 +40,13 @@
 	color: white;
 	background-color: black;
 }
+#home-button {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+#home-button:hover {
+	border-color: transparent !important;
+}
