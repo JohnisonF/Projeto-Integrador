@@ -171,7 +171,8 @@
 .accordion-body ul li{
 	width: 100% !important;
 	list-style: none;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+	transition: all ease 0.3s;
 }
 .accordion-body ul li a{
 	text-decoration: none;
