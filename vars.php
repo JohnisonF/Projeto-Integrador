@@ -20,4 +20,6 @@
 			require_once __DIR__.'/components/footer.php';
 		}
 	}
+
+	error_reporting(0);
 ?>

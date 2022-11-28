@@ -11,12 +11,13 @@
 		}
 
 		public function login($dados) {
-			$sql = "SELECT u.* FROM usuario u WHERE u.id = ".$dados['login']." OR u.email = ".$dados['login'];
+			$sql = "SELECT u.* FROM usuario u WHERE u.id = '".$dados['login']."' OR u.email = '".$dados['login']."'";
 			$statement = $this->database->connection->prepare($sql);
 			if($statement->execute()){
 				$values = $statement->fetchAll();
 				if(count($values) > 0){
-					if(crypt($dados['senha'], $values[0]['password']) == $values[0]['password']){
+					if($dados['senha'] == $values[0]['senha']){
+						print_r("DEUBOAHEHEHE");
 						return $values[0];
 					}
 					else {

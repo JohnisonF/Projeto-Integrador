@@ -13,3 +13,4 @@
 | #6            | FIX/FEAT - Resolvendo bug de layout e colocando livros  |
 | #7            | FEAT - Criando a página de disciplinas  |
 | #8            | CHORE - Atulizando a sidebar e botões  |
+| #9            | FIX - Arrumando login  |

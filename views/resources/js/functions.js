@@ -29,10 +29,11 @@ $(document).ready(function() {
         });
     });
 
-    $('#login-submit').click(function(e){
+    $('#form-login').submit(function(e){
         e.preventDefault();
         let login = document.getElementById('login').value
         let senha = document.getElementById('senha').value
+        console.log(login)
         $.ajax({
             url: 'http://localhost/projetoIntegrador/ajax.php',
             type: 'POST',
@@ -42,7 +43,7 @@ $(document).ready(function() {
                 login:login,
                 senha:senha,
             },
-            dataType: 'json',
+            dataType: 'text',
             success: function(data) {
                 if(data) {
                     window.location.reload();
