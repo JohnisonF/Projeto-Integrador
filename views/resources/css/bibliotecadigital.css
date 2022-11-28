@@ -1,0 +1,47 @@
+.space-biblioteca {
+	background-color: #75BDFF;
+	padding: 15px 0px;
+    position: relative;
+    top: calc(50vh - 38px);
+    transform: translateY(-50%);
+}
+.content-pesquisalivro {
+	width: 650px !important;
+}
+.content-pesquisalivro #input-buscalivro {
+	width: 100%;
+	padding: 5px 12px;
+	font-family: 'Poppins';
+	border-radius: 5px;
+	border: none;
+	font-size: 19px;
+}
+#input-buscalivro::placeholder {
+	color: lightgray;
+}
+.content-pesquisalivro h2 {
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins';
+	margin: 5px 0px;
+}
+.content-pesquisalivro .grupo-select {
+	display: flex;
+	justify-content: space-between;
+}
+.content-pesquisalivro .grupo-select select {
+	width: 24%;
+	padding: 2px 5px;
+	border-radius: 5px;
+	border: none;
+	font-family: 'Poppins';
+}
+#btn-pesquisa {
+    width: 100%;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c0ddff;
+    color: white;
+}
