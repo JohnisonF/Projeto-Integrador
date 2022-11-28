@@ -3,6 +3,9 @@
 	$GLOBALS['atividades'] = [];
 	$GLOBALS['livros'] = [];
 	$GLOBALS['notas'] = [];
+	$GLOBALS['ano_livros'] = [];
+	$GLOBALS['autor_livros'] = [];
+	$GLOBALS['editora_livros'] = [];
 
 
 	// Funçõa necessária para rota

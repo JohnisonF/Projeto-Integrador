@@ -1,9 +1,7 @@
 .space-biblioteca {
 	background-color: #75BDFF;
 	padding: 15px 0px;
-    position: relative;
-    top: calc(50vh - 38px);
-    transform: translateY(-50%);
+    margin-top: calc(35vh - 38px);
 }
 .content-pesquisalivro {
 	width: 650px !important;
@@ -44,4 +42,57 @@
     border-radius: 5px;
     background-color: #c0ddff;
     color: white;
+}
+.box-livro  {
+	border-radius: 4px;
+	margin: 55px 0px 15px 0px !important;
+}
+.content-box-livro {
+	box-shadow: 0px 0px 4px 1px #00000038;
+	padding: 0px 8px;
+}
+.box-livro .box-img-livro {
+	display: flex;
+	justify-content: center;
+}
+.box-livro .box-img-livro img {
+	width: 190px;
+	height: 270px;
+}
+.content-nome-livro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	min-height: 54px;
+	font-family: 'Poppins';
+}
+.rating {
+	text-align: center;
+}
+.rating i {
+    color: #efef15;
+}
+.num-disponivel-livro {
+	display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.content-autores {
+	display: flex;
+	justify-content: center;
+	font-size: 11px;
+}
+.content-disponibilidade {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	font-family: 'Poppins';
+	font-weight: bold;
+	color: #19c719;
+}
+.content-disponibilidade.indisponivel {
+	color: red !important;
 }
