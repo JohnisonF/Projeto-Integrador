@@ -2,7 +2,8 @@
 ## Desenvolvimento de uma Plataforma Acadêmica
 ###### O objetivo deste projeto é desenvolver uma plataforma acadêmica, onde ajude uma faculdade para o gerenciamento interno de matérias, notas, livros e etc. 
 ###### Este projeto teve intuito de obtenção de nota na matéria Projeto Integrador no curso de Engenharia de Software, com os desenvolvedores [JohnisonF](https://www.github.com/JohnisonF) e [xBarth](https://www.github.com/xBarth)
-
+## MVC
+###### Neste projeto foi feita a utilização do padrão MVC, que dentre as vantagens, a principal para a escolha neste desenvolvimento seria pela manutenção do projeto ser mais fácil.  
 #### Projeto:
 |    Commits    |   Descrição   |   Dev   |
 | ------------- |:-------------:|:-------------:|
